@@ -56,7 +56,7 @@ namespace WebApiEksamenForberedelse.Controllers
         }
 
         // Fiddler: 
-        // http://localhost:42175/api/auktionsvarer/Bid?id=001&bid=20000&name=kurt&phone=10000
+        // http://localhost:42175/api/Auctions/Bid?id=001&bid=20000&name=kurt&phone=10000
         [HttpPost]
         public HttpResponseMessage Bid(string id, int bid, string name, string phone)
         {
